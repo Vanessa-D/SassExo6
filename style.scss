@@ -1,0 +1,29 @@
+// $variable
+$blue_color: darkcyan;
+// @mixin
+@mixin background_style{
+    background-image: url(images/photo4.jpg);
+    color: cornsilk; 
+    text-align: center;
+}
+// Effet sur le lien au passage de la souris et une fois visité
+a {
+    li:hover {
+        background-color: crimson;
+    }
+    // Nesting / Imbrication des pseudo-formats avec "&:"
+    &:visited {
+        color: darkgoldenrod;
+    }
+}
+// Image de fond pour le titre le la page --> application @mixin
+h1 {
+    @include background_style;
+}
+// Couleur pour les titres des parties --> application @variable
+.titre {
+    color: $blue_color;
+}
+
+
+

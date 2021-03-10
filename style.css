@@ -1,0 +1,18 @@
+a li:hover {
+  background-color: crimson;
+}
+a:visited {
+  color: darkgoldenrod;
+}
+
+h1 {
+  background-image: url(images/photo4.jpg);
+  color: cornsilk;
+  text-align: center;
+}
+
+.titre {
+  color: darkcyan;
+}
+
+/*# sourceMappingURL=style.css.map */
